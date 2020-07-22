@@ -18,7 +18,7 @@ namespace Accuweather.Core.Helpers
 
             if (!response.IsSuccessStatusCode)
             {
-                res.Message = res.Message;
+                res.Message = response.ReasonPhrase;
                 return res;
             }
             res.Data = await response.Content.ReadAsStringAsync();
