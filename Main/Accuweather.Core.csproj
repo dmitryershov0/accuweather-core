@@ -4,6 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RepositoryUrl>https://github.com/dmitryershov0/accuweather-core</RepositoryUrl>
     <DocumentationFile>..\Accuweather.Core.xml</DocumentationFile>
+    <PackageId>Accuweather.Core</PackageId>
+    <Version>1.0.1</Version>
+    <PackageDescription>
+    This package implements the basic methods and helpers
+    for submitting requests for accuweather api.
+     </PackageDescription>
   </PropertyGroup>
 
   <ItemGroup>
