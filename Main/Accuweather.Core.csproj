@@ -1,7 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/dmitryershov0/accuweather-core</RepositoryUrl>
+    <DocumentationFile>..\Accuweather.Core.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

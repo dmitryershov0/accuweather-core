@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accuweather.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Accuweather.Core.Helpers.ResponseGenerator">
+            <summary>
+            Generate response
+            </summary>
+        </member>
+        <member name="M:Accuweather.Core.Helpers.ResponseGenerator.GetResponse(System.Net.Http.HttpResponseMessage)">
+            <summary>
+            Returns custom response object.
+            </summary>
+            <param name="response">Api respose.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Accuweather.Core.Helpers.ResponseGenerator.GetResponseJson(System.Net.Http.HttpResponseMessage)">
+            <summary>
+            Returns custom response json.
+            </summary>
+            <param name="response">Api response.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Accuweather.Core.Models.Response">
+            <summary>
+            Custom response
+            </summary>
+        </member>
+        <member name="P:Accuweather.Core.Models.Response.StatusCode">
+            <summary>
+            Status code
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Accuweather.Core.Models.Response.Message">
+            <summary>
+            Message
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Accuweather.Core.Models.Response.Data">
+            <summary>
+            Response Accuweather Api
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>
