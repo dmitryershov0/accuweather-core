@@ -1,6 +1,6 @@
 using Accuweather.Core;
 
-namespace AccuweatherCore.Test{
+namespace Accuweather.Test{
     public class ApiFixture: AccuweatherApiCore
     {
         public ApiFixture(string apiKey, string language="en-us")
